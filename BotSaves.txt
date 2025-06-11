@@ -25,7 +25,7 @@ git branch -M maindef displayPathtoPrincess(n, grid):
             print("RIGHT")
         elif pos_col['m'] > pos_col['p']:
             pos_col['m'] = pos_col['m'] - 1
-            print("LEFT")
+            print("LEFTist ")
 
         if pos_col['m'] == pos_col['p'] and pos_row['m'] == pos_row['p']:
             not_find = False
