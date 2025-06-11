@@ -10,7 +10,7 @@ git branch -M maindef displayPathtoPrincess(n, grid):
                 pos_col['m'] = j
             elif grid[i][j] == 'p':
                 pos_row['p'] = i
-                pos_col['p'] = k
+                pos_col['p'] = j
     
     while not_find:
         if pos_row['m'] < pos_row['p']:
